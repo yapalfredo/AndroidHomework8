@@ -1,5 +1,5 @@
 # AndroidHomework8
-This 8th homework contains only an activity. This is just all about input validation using Regular Expressions.
+This 8th homework contains only one activity. This is just all about input validation using Regular Expressions.
 
 # The activity contains:
 3 EditText fields (Email Address, Phone Number, and Date of Birth) <br>
