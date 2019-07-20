@@ -1,8 +1,7 @@
 # AndroidHomework8
-
 This 8th homework contains only an activity. This is just all about input validation using Regular Expressions.
 
-The activity contains:<br>
+# The activity contains:
 3 EditText fields (Email Address, Phone Number, and Date of Birth) <br>
 3 TextView fields (for showing errors) <br>
 1 button for checking if all fields satistfy the validation then invokes a Toast.
