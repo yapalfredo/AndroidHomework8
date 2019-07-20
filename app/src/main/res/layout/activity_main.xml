@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary">
+
+
+    <LinearLayout
+        android:background="@android:color/darker_gray"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Input Validations"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edtTxtEmailAddress"
+            android:hint="Email Address"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edtTxtPhoneNumber"
+            android:hint="Phone Number"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            />
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/edtTxtDateOfBirth"
+            android:hint="Date of Birth   (yyyy-mm-dd)"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        >
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txtViewEmailMessage"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txtViewPhoneMessage"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/txtViewDateOfBirthMessage"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/btnCheckRegex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Check" />
+    </LinearLayout>
+
+</LinearLayout>
