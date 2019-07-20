@@ -37,7 +37,7 @@
         <EditText
             android:textColor="@android:color/white"
             android:id="@+id/edtTxtPhoneNumber"
-            android:hint="Phone Number"
+            android:hint="Phone Number   (US or CANADA)"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:inputType="phone"
