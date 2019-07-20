@@ -4,7 +4,7 @@ This 8th homework contains only an activity. This is just all about input valida
 # The activity contains:
 3 EditText fields (Email Address, Phone Number, and Date of Birth) <br>
 3 TextView fields (for showing errors) <br>
-1 button for checking if all fields satistfy the validation then invokes a Toast.
+1 Button for checking if all fields satistfy the validation (Then invokes a Toast for pop-up message.)
 
 Given: July 19th, 2019
 
